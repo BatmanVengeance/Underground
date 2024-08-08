@@ -1,0 +1,87 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header */
+.site-header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 30px;
+    transition: padding 0.3s ease, background-color 0.3s ease;
+    z-index: 1000;
+}
+
+.site-header.shrink {
+    padding: 10px 20px;
+    background-color: #222;
+}
+
+.logo img {
+    transition: transform 0.3s ease;
+}
+
+.site-header.shrink .logo img {
+    transform: scale(0.8);
+}
+
+/* Search Form */
+.search-bar {
+    padding: 20px;
+}
+
+.search-bar form {
+    display: flex;
+    gap: 10px;
+}
+
+.search-bar input,
+.search-bar select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #555;
+}
+
+/* Event Listings */
+.event-listing {
+    padding: 20px;
+}
+
+.event-details {
+    margin-bottom: 20px;
+}
+
+.event-details img {
+    width: 100%;
+    height: auto;
+}
+
+/* Booking Section */
+.booking-section {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Reviews Section */
+.reviews-section {
+    margin-top: 30px;
+}
